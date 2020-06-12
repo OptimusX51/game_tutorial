@@ -10,5 +10,7 @@ if age >= 18:
 	wants_to_play = input('Want to play a game? ').lower()
 	if wants_to_play == 'yes':
 		print("Then let's play")
+	else:
+		print('Farewell...')
 else:
 	print('You may not pass.')
